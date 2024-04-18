@@ -1,0 +1,427 @@
+.mid {
+
+    background-color: #e8e8e8;
+    display: grid;
+    grid-template-areas: "tl tr"
+        " bl br";
+    gap: 8vh 5vw;
+    padding-top: 30px;
+}
+
+.pizza-tl {
+    grid-area: tl;
+}
+
+.pizza-tr {
+    grid-area: tr;
+}
+
+.pizza-bl {
+    grid-area: bl;
+}
+
+.pizza-br {
+    grid-area: br;
+}
+
+.pizza-mid {
+    background-color: white;
+    border-color: rgb(36, 21, 21);
+}
+
+.CUSTOMIZE {
+    background-color: #827c7c;
+    border-radius: 5px;
+}
+
+.add {
+    background-color: #c8102e;
+width: 16vw !important;
+    border-radius: 5px;
+}
+.CUSTOMIZE{
+width:11vw;
+}
+/* ------------------------------------------------------------------------------- */
+.pizza-tl {
+
+    display: grid;
+    grid-template-areas: "image-edit-tl  pizza-description-tl pizza-description-tl "
+        "image-edit-tl drop-tl drop-tl"
+        "price-tl CUSTOMIZE-tl add-tl ";
+}
+
+.image-edit-tl {
+    margin: 0;
+    padding: 0;
+    grid-area: image-edit-tl;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pizza-description-tl {
+    /* width: 30vw; */
+    margin-top: 15px;
+    grid-area: pizza-description-tl;
+}
+
+.price-tl {
+    grid-area: price-tl;
+}
+
+.drop-tl{
+    grid-area: drop-tl;
+}
+
+.CUSTOMIZE-tl {
+    grid-area: CUSTOMIZE-tl;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 5px;
+}
+
+.add-tl {
+    grid-area: add-tl;
+    height: 40px;
+    text-align: center;
+    padding-top: 10PX;
+    /* width: 12vw; */
+    font-size: 20px;
+    /* margin-left: 1vw; */
+    ;
+}
+
+
+
+.price-tl {
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+.pizza-tr {
+
+    display: grid;
+     grid-template-areas: "image-edit-tr  pizza-description-tr pizza-description-tr "        
+                         "image-edit-tr drop-tr drop-tr"
+                         "price-tr CUSTOMIZE-tr add-tr"; }
+  
+
+.image-edit-tr {
+    margin: 0;
+    padding: 0;
+    grid-area: image-edit-tr;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pizza-description-tr {
+    /* width: 30vw; */
+    margin-top: 15px;
+    grid-area: pizza-description-tr;
+}
+
+.price-tr {
+    grid-area: price-tr;
+}
+
+
+
+.drop-tr{
+    grid-area: drop-tr;
+}
+.CUSTOMIZE-tr {
+    grid-area: CUSTOMIZE-tr;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 5px;
+}
+
+.add-tr {
+    grid-area: add-tr;
+    height: 40px;
+    text-align: center;
+    padding-top: 10PX;
+    width: 12vw;
+    font-size: 20px;
+    margin-left: 1vw;
+    ;
+}
+
+
+.price-tr {
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+.pizza-bl {
+
+    display: grid;
+    grid-template-areas: "image-edit-bl  pizza-description-bl pizza-description-bl "
+                         
+                         "image-edit-bl   drop-bl drop-bl   "
+                         "price-bl              CUSTOMIZE-bl       add-bl      "; 
+
+}
+
+.image-edit-bl {
+    margin: 0;
+    padding: 0;
+    grid-area: image-edit-bl;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pizza-description-bl {
+    /* width: 30vw; */
+    margin-top: 15px;
+    grid-area: pizza-description-bl;
+}
+
+.price-bl {
+    grid-area: price-bl;
+}
+
+.drop-bl{
+    grid-area: drop-bl;
+}
+
+.CUSTOMIZE-bl {
+    grid-area: CUSTOMIZE-bl;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 5px;
+}
+
+.add-bl {
+    grid-area: add-bl;
+    height: 40px;
+    text-align: center;
+    padding-top: 10PX;
+    width: 12vw;
+    font-size: 20px;
+    margin-left: 1vw;
+    ;
+}
+
+.price-bl {
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* --------------------------------------------------------------------------------------- */
+.pizza-br {
+
+    display: grid;
+    grid-template-areas: "image-edit-br  pizza-description-br pizza-description-br "
+        "image-edit-br drop-br drop-br"
+        "price-br CUSTOMIZE-br add-br ";
+ 
+}
+
+.image-edit-br {
+    margin: 0;
+    padding: 0;
+    grid-area: image-edit-br;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pizza-description-br {
+    /* width: 30vw; */
+    margin-top: 15px;
+    grid-area: pizza-description-br;
+}
+
+.price-br {
+    grid-area: price-br;
+}
+
+.drop-br{
+    grid-area: drop-br;
+}
+.CUSTOMIZE-br {
+    grid-area: CUSTOMIZE-br;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 5px;
+}
+
+.add-br {
+    grid-area: add-br;
+    height: 40px;
+    text-align: center;
+    padding-top: 10PX;
+    width: 12vw;
+    font-size: 20px;
+    margin-left: 1vw;
+    ;
+}
+
+.price-br {
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* .ib1{
+    display: inline-block;
+} */
+.droplist-type-tl, .droplist-size-tl,
+.droplist-type-tr, .droplist-size-tr,
+.droplist-type-bl, .droplist-size-bl,
+.droplist-type-br, .droplist-size-br{
+    font-size: 1rem;
+    box-shadow:2px 2px 2px gainsboro inset ;
+    
+
+}
+.droplist-type-tl, 
+.droplist-type-tr, 
+.droplist-type-bl, 
+.droplist-type-br{
+    width: 17vw;
+    height: 30px;
+}
+.droplist-size-tl,
+ .droplist-size-tr,
+ .droplist-size-bl,
+ .droplist-size-br{
+    width: 10vw;
+    height: 30px;
+}
+.drop-tl{
+    display: grid;
+    grid-template-areas: " type-tl size-tl " ;
+    position: relative;
+    
+}
+.type-tl{
+    position: absolute;
+    bottom: 1rem;
+    grid-area:type-tl ;
+
+}
+.size-tl{
+    position: absolute;
+    bottom: 1rem;
+    left:1rem ;
+    padding-left: 1rem;
+    grid-area:size-tl ;
+}
+
+
+
+.drop-tr{
+    display: grid;
+    grid-template-areas: " type-tr size-tr " ;
+    position: relative;
+    
+}
+.type-tr{
+    position: absolute;
+    bottom: 1rem;
+    grid-area:type-tr ;
+
+}
+.size-tr{
+    position: absolute;
+    bottom: 1rem;
+    left:1rem ;
+    padding-left: 1rem;
+    grid-area:size-tr ;
+}
+
+
+
+.drop-bl{
+    display: grid;
+    grid-template-areas: " type-bl size-bl " ;
+    position: relative;
+    
+}
+.type-bl{
+    position: absolute;
+    bottom: 1rem;
+    grid-area:type-bl ;
+
+}
+.size-bl{
+    position: absolute;
+    bottom: 1rem;
+    left:1rem ;
+    padding-left: 1rem;
+    grid-area:size-bl ;
+}
+
+
+
+
+.drop-br{
+    display: grid;
+    grid-template-areas: " type-br size-br " ;
+    position: relative;
+    
+}
+.type-br{
+    position: absolute;
+    bottom: 1rem;
+    grid-area:type-br ;
+
+}
+.size-br{
+    position: absolute;
+    bottom: 1rem;
+    left:1rem ;
+    padding-left: 1rem;
+    grid-area:size-br ;
+}
+
+
+@media only screen and (max-width: 800px) { 
+    
+    .mid {
+
+        background-color: #e8e8e8;
+        display: grid;
+        grid-template-areas: "tl"
+         "tr"
+            " bl" "br";
+        gap: 8vh 5vw;
+        padding-top: 30px;
+    
+
+}
+}

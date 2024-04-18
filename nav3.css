@@ -1,0 +1,51 @@
+.background-image1{
+    width: 100%;
+    height: 10rem;
+background-image: url(3.png);
+background-repeat:no-repeat;
+background-size:100% 10rem ;
+
+}
+
+.third-nav-main{
+position: relative;
+}
+.third-nav-gray{
+width: 100%;
+height: 2rem;
+background-color:rgba(0, 0, 0, 0.7) ;
+z-index: 1;
+position: absolute;
+bottom: 0;
+}
+.third-nav{
+    display: grid;
+    grid-template-areas: "ALL1 BEEF CHICKEN VEGETARIAN SPECIALITY EXTREME SEA . .";
+    gap: 10px 10px;
+    margin-left: 2vw;
+    padding-top: .5rem;
+}
+.third-nav1{
+    grid-area: ALL1;
+}
+.third-nav2{
+    grid-area: BEEF;
+}
+.third-nav3{
+    grid-area: CHICKEN;
+}
+.third-nav4{
+    grid-area: VEGETARIAN;
+}
+.third-nav5{
+    grid-area: SPECIALITY;
+}
+.third-nav6{
+    grid-area: EXTREME;
+}
+.third-nav7{
+    grid-area: SEA;
+}
+.third-nav-edit > a:hover{
+border-bottom:red solid 2px;
+}

@@ -1,0 +1,89 @@
+.SECOND-NAV{
+    width: 100vw;
+    display: grid;
+grid-template-areas: "PIZZA STARTERS SALADS MORE DEALS . .";
+background-color: white;
+height: 2rem;
+
+}
+.SECOND-NAV1{
+    grid-area: PIZZA;
+}
+.SECOND-NAV2{
+    grid-area: STARTERS;
+}
+.SECOND-NAV3{
+    grid-area: SALADS;
+}
+.SECOND-NAV4{
+    grid-area: MORE;
+}
+.SECOND-NAV5{
+    grid-area: DEALS;
+    background-color: #ffa500;
+}
+
+
+
+.SECOND-NAV6{
+    height: 3rem;
+    width: 27vw;
+    background-color: #c8102e;
+    box-shadow: -2px -2px 3px gray;
+    text-align: center;
+    font-size: larger;
+     font-weight: bold;
+    border-radius: 5px;
+    
+     position: absolute;
+    right: 0;
+    top:4.5rem;
+    z-index: 1; 
+    padding-top: .9rem;
+} 
+.black{color:black !important;}
+.SECOND-NAV-EDIT{
+    border-top: solid 1px;
+    border-right:solid 1px ;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 4px;
+    
+}
+/* --------------------------------------------------- */
+/* .nav-red{ 
+    height: 3rem;
+    background-color: blue;
+    display: grid;
+    grid-template-areas:"n1 n2 n3 n4 n5 n6 n7 " ;
+    position: relative;
+} */
+
+/* .SECOND-NAV67{
+    background-color: #c8102e;
+    box-shadow: -2px -2px 3px gray;
+    text-align: center;
+    font-size: larger;
+     font-weight: bold;
+    border-radius: 5px; */
+
+/* }
+.SECOND-NAV61{
+    grid-area: n1;
+}
+.SECOND-NAV62{
+    grid-area: n2;
+}
+.SECOND-NAV63{
+    grid-area: n3;
+}
+.SECOND-NAV614{
+    grid-area: n4;
+}
+.SECOND-NAV65{
+    grid-area: n5;
+}
+.SECOND-NAV66{
+    grid-area: n6;
+} */
